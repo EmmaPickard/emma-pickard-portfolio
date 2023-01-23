@@ -1,0 +1,50 @@
+.headerText{
+    background-image: linear-gradient(to right, #30115B, #5B1B55, #86254F, #B22F4A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7vw;
+    text-align: center;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+}
+
+.headerSubtext{
+    font-family: 'Quicksand', sans-serif;
+    color: #30115B;
+    font-size: 2vw;
+    text-align: center
+}
+
+.headerP{
+    font-family: 'Lato', sans-serif;
+    color:#B22F4A;
+    font-size: 1.5vw;
+    text-align: center;
+
+}
+
+.sectionHeader{
+    background-color: #FCFCFC;
+    justify-content: center;
+}
+
+.Column, .Row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .Row {
+    flex-direction: row;
+    padding: 5px;
+  }
+  .Column {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .title{
+    justify-content: center;
+  }
